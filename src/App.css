@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+.app {
+    height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-sub {
+    display: flex;
+    flex-direction: row;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-sub__left {
+    width: 30%;
+    height: 100vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app-sub__right {
+    width: 70%;
+    height: 100vh;
+    background-color: rgb(179, 173, 173);
 }
 
-.App-link {
-  color: #61dafb;
+.app-sub__right h1 {
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-sub__right__photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.app-sub__right__photo img {
+    width: 100%;
+    padding: 2px;
+}
+
+.app-sub2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.largerImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 90vh;
+    cursor: pointer;
+}
+
+.largerImg img {
+    /* width: 80%; */
+    height: 100%;
 }
