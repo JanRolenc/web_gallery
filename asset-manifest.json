@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/web_gallery/static/css/main.677d48e6.css",
+    "main.js": "/web_gallery/static/js/main.889449d5.js",
+    "static/media/skull.jpg": "/web_gallery/static/media/skull.2b5c3e78bd1830b5f941.jpg",
+    "index.html": "/web_gallery/index.html",
+    "main.677d48e6.css.map": "/web_gallery/static/css/main.677d48e6.css.map",
+    "main.889449d5.js.map": "/web_gallery/static/js/main.889449d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.677d48e6.css",
+    "static/js/main.889449d5.js"
+  ]
+}
