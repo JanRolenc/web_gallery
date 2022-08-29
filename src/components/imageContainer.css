@@ -1,0 +1,20 @@
+.app-sub__right__photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 250px;
+    background-color: white;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: white;
+}
+
+.app-sub__right__photo img {
+    width: 100%;
+    padding: 2px;
+}

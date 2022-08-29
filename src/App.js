@@ -1,17 +1,23 @@
 import './App.css';
-import skull from "./photos/skull.jpg"
+import photos from "./photos/photos.json"
 import { useState } from 'react'
 
 
-function App() {
+const App = () => {
   const [largerImage, setLargerImage] = useState(false)
+  const [imgClicked, setImgClicked] = useState({})
 
-  const extendImage = () => {
+  const extendImageToggler = () => {
     setLargerImage(!largerImage)
+  }
+  const onImgClick = (image) => {
+    setImgClicked(image)
+    setLargerImage(!largerImage)
+
   }
 
   return (
-    // <div className="app">
+
     !largerImage ? (
       <div className="app-sub">
         <div className="app-sub__left">
@@ -21,9 +27,18 @@ function App() {
         </div>
         <div className="app-sub__right">
           <h1>My Portfolio</h1>
-          <div className="app-sub__right__photo">
-            <img src={skull} alt="skull" onClick={extendImage} />
-            <h2>Skull</h2>
+          <div className='app-sub__right__image-list'>
+            {photos.map(item =>
+              <div className='app-sub__right__image-list__photo-container' onClick={() => onImgClick(item)}>
+                <div className='div-img'>
+                  <img src={require(`${item.path}`)}></img>
+                </div>
+                <div className='div-description'>
+                  <h2>{item.name}</h2>
+                </div>
+              </div>
+            )}
+
           </div>
         </div>
       </div>
@@ -31,13 +46,12 @@ function App() {
       (
         <div className="app-sub2">
           <div className='largerImg'>
-            <img src={skull} alt="skull" onClick={extendImage} />
+            <img src={require(`${imgClicked.path}`)} alt={imgClicked.name} onClick={extendImageToggler} />
           </div>
 
         </div>
 
       )
-    // </div>
   );
 }
 
