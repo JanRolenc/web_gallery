@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/web_gallery/static/css/main.677d48e6.css",
-    "main.js": "/web_gallery/static/js/main.889449d5.js",
+    "main.css": "/web_gallery/static/css/main.a5b45081.css",
+    "main.js": "/web_gallery/static/js/main.03dd823e.js",
+    "static/js/787.e61ee11c.chunk.js": "/web_gallery/static/js/787.e61ee11c.chunk.js",
+    "static/media/kralik.jpg": "/web_gallery/static/media/kralik.245ae76332391c986361.jpg",
+    "static/media/zatisi2.jpg": "/web_gallery/static/media/zatisi2.1517777c9cb52f869d45.jpg",
+    "static/media/zatisi1.jpg": "/web_gallery/static/media/zatisi1.345a37d9d3f408c6f290.jpg",
+    "static/media/mummy.jpg": "/web_gallery/static/media/mummy.cf7afed9f8636e30e592.jpg",
     "static/media/skull.jpg": "/web_gallery/static/media/skull.2b5c3e78bd1830b5f941.jpg",
+    "static/media/logo.svg": "/web_gallery/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/web_gallery/index.html",
-    "main.677d48e6.css.map": "/web_gallery/static/css/main.677d48e6.css.map",
-    "main.889449d5.js.map": "/web_gallery/static/js/main.889449d5.js.map"
+    "main.a5b45081.css.map": "/web_gallery/static/css/main.a5b45081.css.map",
+    "main.03dd823e.js.map": "/web_gallery/static/js/main.03dd823e.js.map",
+    "787.e61ee11c.chunk.js.map": "/web_gallery/static/js/787.e61ee11c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.677d48e6.css",
-    "static/js/main.889449d5.js"
+    "static/css/main.a5b45081.css",
+    "static/js/main.03dd823e.js"
   ]
 }
