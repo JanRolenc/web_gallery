@@ -1,46 +1,51 @@
 [{
         "id": "1",
         "name": "Skull",
-        "path": "./photos/skull.jpg"
+        "path": "./photos/Resampled/skull.jpg"
     },
     {
         "id": "2",
         "name": "Kralik",
-        "path": "./photos/kralik.jpg"
+        "path": "./photos/Resampled/kralik.jpg"
     },
     {
         "id": "3",
         "name": "Zatisi1",
-        "path": "./photos/zatisi1.jpg"
+        "path": "./photos/Resampled/zatisi1.jpg"
     },
     {
         "id": "4",
         "name": "Zatisi2",
-        "path": "./photos/zatisi2.jpg"
+        "path": "./photos/Resampled/zatisi2.jpg"
     },
     {
         "id": "5",
         "name": "Mummy",
-        "path": "./photos/mummy.jpg"
+        "path": "./photos/Resampled/mummy.jpg"
     },
     {
         "id": "6",
-        "name": "Kralik",
-        "path": "./photos/kralik.jpg"
+        "name": "Papagai",
+        "path": "./photos/Resampled/papagai.jpg"
     },
     {
         "id": "7",
-        "name": "Zatisi1",
-        "path": "./photos/zatisi1.jpg"
+        "name": "Head",
+        "path": "./photos/Resampled/head.jpg"
     },
     {
         "id": "8",
-        "name": "Zatisi2",
-        "path": "./photos/zatisi2.jpg"
+        "name": "Beauty",
+        "path": "./photos/Resampled/beauty.jpg"
     },
     {
         "id": "9",
-        "name": "Mummy",
-        "path": "./photos/mummy.jpg"
+        "name": "Rabbit",
+        "path": "./photos/Resampled/rabbit.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Ryba",
+        "path": "./photos/Resampled/ryba.jpg"
     }
 ]
