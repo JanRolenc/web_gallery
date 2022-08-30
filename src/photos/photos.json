@@ -47,5 +47,10 @@
         "id": "10",
         "name": "Ryba",
         "path": "./photos/ryba.jpg"
+    },
+    {
+        "id": "11",
+        "name": "Zatisi3",
+        "path": "./photos/zatisi3.jpg"
     }
 ]
