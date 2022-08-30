@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/web_gallery/static/css/main.a5b45081.css",
-    "main.js": "/web_gallery/static/js/main.95517ca8.js",
+    "main.js": "/web_gallery/static/js/main.c870d934.js",
     "static/js/787.e61ee11c.chunk.js": "/web_gallery/static/js/787.e61ee11c.chunk.js",
     "static/media/rabbit.jpg": "/web_gallery/static/media/rabbit.6cb73d7604e59df211e1.jpg",
     "static/media/kralik.jpg": "/web_gallery/static/media/kralik.c778e3cfea9376ed21bd.jpg",
+    "static/media/zatisi3.jpg": "/web_gallery/static/media/zatisi3.33e85d88920303348012.jpg",
     "static/media/beauty.jpg": "/web_gallery/static/media/beauty.6b54ec66224c5580ef31.jpg",
     "static/media/zatisi2.jpg": "/web_gallery/static/media/zatisi2.63e28834c768ac61d672.jpg",
     "static/media/skull.jpg": "/web_gallery/static/media/skull.f3ddcfe7f665586c9efc.jpg",
@@ -17,11 +18,11 @@
     "static/media/logo.svg": "/web_gallery/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/web_gallery/index.html",
     "main.a5b45081.css.map": "/web_gallery/static/css/main.a5b45081.css.map",
-    "main.95517ca8.js.map": "/web_gallery/static/js/main.95517ca8.js.map",
+    "main.c870d934.js.map": "/web_gallery/static/js/main.c870d934.js.map",
     "787.e61ee11c.chunk.js.map": "/web_gallery/static/js/787.e61ee11c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5b45081.css",
-    "static/js/main.95517ca8.js"
+    "static/js/main.c870d934.js"
   ]
 }
