@@ -21,7 +21,7 @@ const App = () => {
     !largerImage ? (
       <div className="app">
         <div className="app__left">
-          <h2>Sofie Rolencova</h2>
+          {/* <h2>Sofie Rolencova</h2> */}
           <h2>About me</h2>
           <h2>Contact</h2>
         </div>
