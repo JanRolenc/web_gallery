@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/web_gallery/static/css/main.a5b45081.css",
-    "main.js": "/web_gallery/static/js/main.c870d934.js",
-    "static/js/787.e61ee11c.chunk.js": "/web_gallery/static/js/787.e61ee11c.chunk.js",
+    "main.css": "/web_gallery/static/css/main.7bcc9ec9.css",
+    "main.js": "/web_gallery/static/js/main.24a93971.js",
     "static/media/rabbit.jpg": "/web_gallery/static/media/rabbit.6cb73d7604e59df211e1.jpg",
     "static/media/kralik.jpg": "/web_gallery/static/media/kralik.c778e3cfea9376ed21bd.jpg",
     "static/media/zatisi3.jpg": "/web_gallery/static/media/zatisi3.33e85d88920303348012.jpg",
@@ -15,14 +14,12 @@
     "static/media/head.jpg": "/web_gallery/static/media/head.59ce749c288f8a98fbef.jpg",
     "static/media/bird3.jpg": "/web_gallery/static/media/bird3.9eda0db03b12ad5e833a.jpg",
     "static/media/papagai.jpg": "/web_gallery/static/media/papagai.e58c5d09aeac7fb2473b.jpg",
-    "static/media/logo.svg": "/web_gallery/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/web_gallery/index.html",
-    "main.a5b45081.css.map": "/web_gallery/static/css/main.a5b45081.css.map",
-    "main.c870d934.js.map": "/web_gallery/static/js/main.c870d934.js.map",
-    "787.e61ee11c.chunk.js.map": "/web_gallery/static/js/787.e61ee11c.chunk.js.map"
+    "main.7bcc9ec9.css.map": "/web_gallery/static/css/main.7bcc9ec9.css.map",
+    "main.24a93971.js.map": "/web_gallery/static/js/main.24a93971.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5b45081.css",
-    "static/js/main.c870d934.js"
+    "static/css/main.7bcc9ec9.css",
+    "static/js/main.24a93971.js"
   ]
 }
