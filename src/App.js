@@ -19,19 +19,19 @@ const App = () => {
   return (
 
     !largerImage ? (
-      <div className="app-sub">
-        <div className="app-sub__left">
-          <h2>Jan Rolenc</h2>
+      <div className="app">
+        <div className="app__left">
+          <h2>Sofie Rolencova</h2>
           <h2>About me</h2>
           <h2>Contact</h2>
         </div>
-        <div className="app-sub__right">
+        <div className="app__right">
           <h1>My Portfolio</h1>
-          <div className='app-sub__right__image-list'>
+          <div className='app__right__image-list'>
             {photos.map(item =>
-              <div className='app-sub__right__image-list__photo-container' onClick={() => onImgClick(item)}>
+              <div className='app__right__image-list__photo-container' onClick={() => onImgClick(item)}>
                 <div className='div-img'>
-                  <img src={require(`${item.path}`)}></img>
+                  <img src={require(`${item.path}`)} alt={item.name}></img>
                 </div>
                 <div className='div-description'>
                   <h2>{item.name}</h2>

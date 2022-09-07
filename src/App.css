@@ -1,13 +1,17 @@
 .app {
     height: 100vh;
-}
-
-.app-sub {
     display: flex;
     flex-direction: row;
 }
 
-.app-sub__left {
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class='app'] {
+        flex-direction: column;
+    }
+}
+
+.app__left {
     width: 30%;
     height: 100vh;
     color: black;
@@ -17,7 +21,22 @@
     align-items: center;
 }
 
-.app-sub__right {
+@media only screen and (max-width: 768px) {
+    h2 {
+        font-size: 16px;
+        margin: 10px;
+    }
+    h1 {
+        font-size: 25px;
+        margin: 10px;
+    }
+    [class='app__left'] {
+        width: 100%;
+        flex-direction: row;
+    }
+}
+
+.app__right {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +46,13 @@
     background-color: rgb(179, 173, 173);
 }
 
-.app-sub__right__image-list {
+@media only screen and (max-width: 768px) {
+    [class='app__right'] {
+        width: 100%;
+    }
+}
+
+.app__right__image-list {
     display: flex;
     flex-flow: row wrap;
     overflow: scroll;
@@ -38,11 +63,11 @@
     height: 100vh;
 }
 
-.app-sub__right h1 {
+.app__right h1 {
     text-align: center;
 }
 
-.app-sub__right__image-list__photo-container {
+.app__right__image-list__photo-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -87,6 +112,7 @@
     width: 90vw;
     height: 90vh;
     cursor: pointer;
+    margin: 5px;
 }
 
 .largerImg img {
