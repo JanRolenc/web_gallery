@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/web_gallery/static/css/main.7bcc9ec9.css",
+    "main.css": "/web_gallery/static/css/main.490c0fe7.css",
     "main.js": "/web_gallery/static/js/main.74c5f530.js",
     "static/media/rabbit.jpg": "/web_gallery/static/media/rabbit.6cb73d7604e59df211e1.jpg",
     "static/media/kralik.jpg": "/web_gallery/static/media/kralik.c778e3cfea9376ed21bd.jpg",
@@ -15,11 +15,11 @@
     "static/media/bird3.jpg": "/web_gallery/static/media/bird3.9eda0db03b12ad5e833a.jpg",
     "static/media/papagai.jpg": "/web_gallery/static/media/papagai.e58c5d09aeac7fb2473b.jpg",
     "index.html": "/web_gallery/index.html",
-    "main.7bcc9ec9.css.map": "/web_gallery/static/css/main.7bcc9ec9.css.map",
+    "main.490c0fe7.css.map": "/web_gallery/static/css/main.490c0fe7.css.map",
     "main.74c5f530.js.map": "/web_gallery/static/js/main.74c5f530.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bcc9ec9.css",
+    "static/css/main.490c0fe7.css",
     "static/js/main.74c5f530.js"
   ]
 }
