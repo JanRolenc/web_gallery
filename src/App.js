@@ -1,68 +1,97 @@
 import './App.css';
 import photos from "./photos/photos.json"
-import { useState, useRef } from 'react'
+import { useState } from 'react'
+import { Fragment } from 'react'
 
 
 const App = () => {
   const [largerImage, setLargerImage] = useState(false)
   const [imgClicked, setImgClicked] = useState({})
+  const [aboutClicked, setAboutClicked] = useState(false)
 
-  const ref = useRef();
-  // const vybranyImg;
   const extendImageToggler = (e) => {
     setLargerImage(!largerImage)
-    // if (ref) {
-    //   ref.current.focus()
-    // }
-    console.log('ref po kliku na velky img', ref)
-    console.log('img po kliku na velky img', e.target)
-    //  vybranyImg = ref. 
   }
   const onImgClick = (image) => {
-    console.log('image po kliku na maly image', image)
     setImgClicked(image)
     setLargerImage(!largerImage)
+  }
 
-    // console.log(ref)
+  const aboutClick = () => {
+    setAboutClicked(!aboutClicked)
+    setLargerImage(false)
+  }
+
+  const aboutDivClick = () => {
+    setAboutClicked(!aboutClicked)
   }
 
   return (
-
-    !largerImage ? (
-      <div className="app">
-        <div className="app__left">
-          {/* <h2>Sofie Rolencova</h2> */}
-          <h2>About me</h2>
-          {/* <h2>Contact</h2> */}
-        </div>
-        <div className="app__right">
-          <h1>My Portfolio</h1>
-          <div className='app__right__image-list'>
-            {photos.map(item =>
-              <div key={item.id} className='app__right__image-list__photo-container' onClick={() => onImgClick(item)}>
-                <div className='div-img'>
-                  <img src={require(`${item.path}`)} alt={item.name} ref={ref}></img>
-                </div>
-                <div className='div-description'>
-                  <h2>{item.name}</h2>
-                </div>
-              </div>
-            )}
-
-          </div>
-        </div>
-      </div>
-    ) :
-      (
-        <div className="app-sub2">
-          <div className='largerImg'>
-            <img src={require(`${imgClicked.path}`)} alt={imgClicked.name} onClick={(e) => extendImageToggler(e)} />
+    <div className="app">
+      {!largerImage && !aboutClicked &&
+        <Fragment>
+          <div className="app__left">
+            <h2 id="about-h2" onClick={aboutClick}>About</h2>
+            <p>Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+              Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+              Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+              Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+              Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+              Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+              Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+              Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+              Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+              Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+            </p>
           </div>
 
+          <div className="app__right">
+            <h1>My Portfolio</h1>
+            <div className='app__right__image-list'>
+              {photos.map(item =>
+                <div id={item.id} key={item.id} className='app__right__image-list__photo-container' onClick={() => onImgClick(item)}>
+                  <div className='div-img'>
+                    <img src={require(`${item.path}`)} alt={item.name} ></img>
+                  </div>
+                  <div className='div-description'>
+                    <h2>{item.name}</h2>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </Fragment>
+      }
+      {largerImage && !aboutClicked &&
+        <a href={`#${imgClicked.id}`}>
+          <div className="large-img-page">
+            <div className='large-img-page__img-container'>
+              <img
+                src={require(`${imgClicked.path}`)}
+                alt={imgClicked.name}
+                onClick={(e) => extendImageToggler(e)} />
+            </div>
+          </div>
+        </a>
+      }
+      {aboutClicked &&
+        <div className='about-page' onClick={aboutDivClick}>
+          <h2> About</h2>
+          <p>Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+            Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+            Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+            Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+            Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+            Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+            Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+            Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+            Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+            Tady je potřeba něco napsat o sobě, o tomto projektu, výtvorech, celkově zájmech či myšlenkách...
+          </p>
         </div>
-
-      )
-  );
+      }
+    </div>
+  )
 }
 
 export default App;
