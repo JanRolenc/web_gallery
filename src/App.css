@@ -110,7 +110,7 @@
 
 @media only screen and (max-width: 500px) {
     .app__right__image-list__photo-container {
-        width: 100%;
+        width: 70%;
     }
 }
 
