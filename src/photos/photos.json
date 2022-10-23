@@ -5,17 +5,17 @@
     },
     {
         "id": "2",
-        "name": "Kralik",
+        "name": "Králík",
         "path": "./photos/kralik.jpg"
     },
     {
         "id": "3",
-        "name": "Zatisi1",
+        "name": "Zátiší_1",
         "path": "./photos/zatisi1.jpg"
     },
     {
         "id": "4",
-        "name": "Zatisi2",
+        "name": "Zátiší_2",
         "path": "./photos/zatisi2.jpg"
     },
     {
@@ -50,7 +50,12 @@
     },
     {
         "id": "11",
-        "name": "Zatisi3",
+        "name": "Zátiší_3",
         "path": "./photos/zatisi3.jpg"
+    },
+    {
+        "id": "12",
+        "name": "Super_Girl",
+        "path": "./photos/super_girl.jpg"
     }
 ]
