@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web_gallery/static/css/main.47550924.css",
-    "main.js": "/web_gallery/static/js/main.373ad7f6.js",
+    "main.js": "/web_gallery/static/js/main.1b736f0f.js",
     "static/media/rabbit.jpg": "/web_gallery/static/media/rabbit.6cb73d7604e59df211e1.jpg",
     "static/media/kralik.jpg": "/web_gallery/static/media/kralik.c778e3cfea9376ed21bd.jpg",
     "static/media/zatisi3.jpg": "/web_gallery/static/media/zatisi3.33e85d88920303348012.jpg",
@@ -13,13 +13,14 @@
     "static/media/ryba.jpg": "/web_gallery/static/media/ryba.63ff346be39aa15e2a01.jpg",
     "static/media/head.jpg": "/web_gallery/static/media/head.59ce749c288f8a98fbef.jpg",
     "static/media/bird3.jpg": "/web_gallery/static/media/bird3.9eda0db03b12ad5e833a.jpg",
+    "static/media/super_girl.jpg": "/web_gallery/static/media/super_girl.23188f3c209dfd273424.jpg",
     "static/media/papagai.jpg": "/web_gallery/static/media/papagai.e58c5d09aeac7fb2473b.jpg",
     "index.html": "/web_gallery/index.html",
     "main.47550924.css.map": "/web_gallery/static/css/main.47550924.css.map",
-    "main.373ad7f6.js.map": "/web_gallery/static/js/main.373ad7f6.js.map"
+    "main.1b736f0f.js.map": "/web_gallery/static/js/main.1b736f0f.js.map"
   },
   "entrypoints": [
     "static/css/main.47550924.css",
-    "static/js/main.373ad7f6.js"
+    "static/js/main.1b736f0f.js"
   ]
 }
