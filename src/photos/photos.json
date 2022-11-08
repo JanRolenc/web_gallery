@@ -57,5 +57,15 @@
         "id": "12",
         "name": "Super_Girl",
         "path": "./photos/super_girl.jpg"
+    },
+    {
+        "id": "13",
+        "name": "Zátiší_4",
+        "path": "./photos/zatisi4.jpg"
+    },
+    {
+        "id": "14",
+        "name": "Zátiší_5",
+        "path": "./photos/zatisi5.jpg"
     }
 ]
